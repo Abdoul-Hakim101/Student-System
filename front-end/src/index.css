@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "Quicksand", serif;
+    color: #333;
+
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+    color: #f1356d;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: bolder;
+}
+
+.navbar a:hover {
+    color: #f1356d;
+}
+
+.containerAddStudent {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.containerAddStudent h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: white;
+}
+
+textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.containerStudentList {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px auto auto;
+}
+
+.containerStudentList h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.studentList {
+    list-style: none;
+    padding: 0;
+
+}
+
+.studentItem strong {
+    color: white;
+}
+
+.studentItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: white;
+}
+p{
+    color: white;
+}
